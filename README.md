@@ -58,7 +58,3 @@ We welcome contributions to improve the website or fix issues. If you'd like to 
 3. Make your changes and commit them.
 4. Push your changes to your fork.
 5. Open a pull request against the `main` branch of this repository.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute it according to the terms of the license.
