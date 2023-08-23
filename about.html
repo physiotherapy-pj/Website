@@ -7,33 +7,12 @@
             background-image: url('img/bg.png');
             background-repeat: no-repeat;
             background-size: cover;
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
         }
         .doctor-image {
-            max-width: 100%;
+            max-width: 300px;
             height: auto;
             margin: 20px 0;
             border-radius: 10px;
-        }
-        .feature-chart {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            margin-top: 20px;
-        }
-        .feature {
-            width: calc(33.33% - 20px);
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            margin-bottom: 10px;
         }
     </style>
     <link rel="stylesheet" href="styles.css">
@@ -51,6 +30,7 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="services.html">Services</a></li>
+           
             <li><a href="appointment.html">Book an Appointment</a></li>
         </ul>
     </nav>
@@ -58,30 +38,38 @@
     <div class="container">
         <h2>About Us</h2>
         <p>123 Main Street, Cityville, Country</p>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m11!1m3!1d145.322885696379!2d73.6790032091491!3d18.732095481596513!2m2!1f259.0373824626437!2f45!3m2!1i1024!2i768!4f35!5e1!3m2!1sen!2sin!4v1690652008145!5m2!1sen!2sin" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m11!1m3!1d145.322885696379!2d73.6790032091491!3d18.732095481596513!2m2!1f259.0373824626437!2f45!3m2!1i1024!2i768!4f35!5e1!3m2!1sen!2sin!4v1690652008145!5m2!1sen!2sin" width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <br>
         <a href="https://goo.gl/maps/PoqXU2nTaggDaFmk8" class="button">Navigate To Clinic</a> 
-        <h3>Why Choose Us:</h3>
-        <div class="feature-chart">
-            <div class="feature">
-                <p>Qualified Professionals</p>
+        <p>Why Choose Us:</p>
+        <ul>
+            <div class="feature-chart">
+                <div class="feature">
+                    <p>Qualified Professionals</p>
+                </div>
+
+                <div class="feature">
+                    <p>Individualized Care</p>
+                </div>
+
+                <div class="feature">
+                    <p>State-of-the-Art Facilities</p>
+                </div>
+
+                <div class="feature">
+                    <p>Evidence-Based Approach</p>
+                </div>
+
+                <div class="feature">
+                    <p>Compassionate Support</p>
+                </div>
+                
+                <div class="feature">
+                    <p>Convenient Scheduling</p>
+                </div>
             </div>
-            <div class="feature">
-                <p>Individualized Care</p>
-            </div>
-            <div class="feature">
-                <p>State-of-the-Art Facilities</p>
-            </div>
-            <div class="feature">
-                <p>Evidence-Based Approach</p>
-            </div>
-            <div class="feature">
-                <p>Compassionate Support</p>
-            </div>
-            <div class="feature">
-                <p>Convenient Scheduling</p>
-            </div>
-        </div>
+        </ul>
+
         <p>Take the first step towards a healthier, pain-free life by scheduling an appointment with our expert physiotherapists today. Feel free to explore our website for more information, and please don't hesitate to reach out if you have any questions. We look forward to partnering with you on your path to better health!</p>
         <a href="appointment.html" class="button">Book An Appointment</a>
     </div>
